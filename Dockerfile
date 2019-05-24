@@ -12,6 +12,7 @@ run apt-get install -y \
       openssh-server \
       sudo \
       procps \
+      curl \
     && python3 -m pip install \
       rope \
       pylint \
